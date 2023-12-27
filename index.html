@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>Personal Identity Portfolio</h2>
+        <p>
+          Collage Student majoring in Business Information Systems
+        </p>
+      </div>
+
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./AI.jpeg" alt="" />
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">history</button>
+            <button class="tab-btn" data-id="vision">vision</button>
+            <button class="tab-btn" data-id="goals">goals</button>
+          </div>
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="history">
+              <h4>history</h4>
+              <p>
+                A Business Information Systems student who has passion and enthusiasm for front-end and 
+                back-end websites and UI/UX Designer. Enjoys working together in a team and has a deep curiosity 
+                in the world of Web Developer
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="vision">
+              <h4>vision</h4>
+              <p>
+                Has the hope of becoming a programmer in the Web developer field, especially in Front-End, Back-End,
+                and UI/UX Designer. Have expertise in the field:
+              </p>
+              <ul>
+                <li>Javascript, Tailwind, PHP</li>
+                <li>UI/UX Figma</li>
+                <li>Davinci Resolve</li>
+              </ul>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="goals">
+              <h4>goals</h4>
+              <p>
+                Aims to become a programmer and UI/UX Designer who can complete projects well and help clients' business 
+                needs in the future.
+              </p>
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
